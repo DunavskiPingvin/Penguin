@@ -1,71 +1,28 @@
-<!--
-Licensed to the Apache Software Foundation (ASF) under one
-or more contributor license agreements.  See the NOTICE file
-distributed with this work for additional information
-regarding copyright ownership.  The ASF licenses this file
-to you under the Apache License, Version 2.0 (the
-"License"); you may not use this file except in compliance
-with the License.  You may obtain a copy of the License at
 
-  http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing,
-software distributed under the License is distributed on an
-"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-KIND, either express or implied.  See the License for the
-specific language governing permissions and limitations
-under the License.
--->
 
 <div align="center">
 
-# Apache Doris
+# Penguin ( a parody of Apache Doris. linkovi nisu editovani.Isti je djavo)
 
-[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
-[![GitHub release](https://img.shields.io/github/release/apache/doris.svg)](https://github.com/apache/doris/releases)
-[![OSSRank](https://shields.io/endpoint?url=https://ossrank.com/shield/516)](https://ossrank.com/p/516)
-[![Commit activity](https://img.shields.io/github/commit-activity/m/apache/doris)](https://github.com/apache/doris/commits/master/)
-[![EN doc](https://img.shields.io/badge/Docs-English-blue.svg)](https://doris.apache.org/docs/get-starting/quick-start)
-[![CN doc](https://img.shields.io/badge/文档-中文版-blue.svg)](https://doris.apache.org/zh-CN/docs/get-starting/quick-start/)
-
-<div>
-
-[![Official Website](<https://img.shields.io/badge/-Visit%20the%20Official%20Website%20%E2%86%92-rgb(15,214,106)?style=for-the-badge>)](https://doris.apache.org/)
-[![Quick Download](<https://img.shields.io/badge/-Quick%20%20Download%20%E2%86%92-rgb(66,56,255)?style=for-the-badge>)](https://doris.apache.org/download)
+[![License](https://kocovic.in.rs/pigeons/getpigeoned.html)
+[![GitHub release](https://kocovic.in.rs/skolarci)
+[![OSSRank](https://kocovic.in.rs/pigeons/getpigeoned.html)
+[![Commit activity](https://kocovic.in.rs/pigeons/getpigeoned.html)
+[![EN doc](https://kocovic.in.rs/pigeons/getpigeoned.html)
+[![CN doc](https://kocovic.in.rs/pigeons/getpigeoned.html)
 
 
-</div>
+Penguin je laka za korišćenje, visoko-performantna i real-time analitička baza podataka zasnovana na MPP arhitekturi, poznata po svojoj ekstremnoj brzini i lakoći korišćenja. Zahteva samo nekoliko sekundi za vraćanje rezultata upita pod velikim količinama podataka i može podržati ne samo scenarije visokog broja upita po tački već i scenarije kompleksne analize sa visokim protokom.
 
+Sve ovo čini Penguin idealnim alatom za scenarije kao što su analiza izveštaja, ad-hoc upiti, unifikovani data warehouse i ubrzanje upita u data lake-u. Na Penguin-u korisnici mogu izgraditi razne aplikacije, kao što su analiza ponašanja korisnika, AB test platforme, analiza logova, analiza korisničkih portreta i analiza narudžbina.
 
-<div>
-    <a href="https://twitter.com/doris_apache"><img src="https://img.shields.io/badge/- @Doris_Apache -424549?style=social&logo=x" height=25></a>
-    &nbsp;
-    <a href="https://github.com/apache/doris/discussions"><img src="https://img.shields.io/badge/- Discussion -red?style=social&logo=discourse" height=25></a>
-    &nbsp;
-    <a href="https://apachedoriscommunity.slack.com/join/shared_invite/zt-2kl08hzc0-SPJe4VWmL_qzrFd2u2XYQA"><img src="https://img.shields.io/badge/-Slack-red?style=social&logo=slack" height=25></a>
-    &nbsp;
-    <a href="https://medium.com/@ApacheDoris"><img src="https://img.shields.io/badge/-Medium-red?style=social&logo=medium" height=25></a>
+🎉 Pogledajte 🔗[Sva izdanja](https://doris.apache.org/docs/releasenotes/all-release), gde ćete naći hronološki pregled verzija Penguin izdanih tokom protekle godine.
 
-</div>
+👀 Istražite 🔗[Zvanični sajt](https://doris.apache.org/) kako biste detaljno saznali o osnovnim karakteristikama, blogovima i korisničkim slučajevima Penguin-a.
 
-</div>
+## 📈 Scenariji upotrebe
 
----
-
-
-
-
-Apache Doris is an easy-to-use, high-performance and real-time analytical database based on MPP architecture, known for its extreme speed and ease of use. It only requires a sub-second response time to return query results under massive data and can support not only high-concurrent point query scenarios but also high-throughput complex analysis scenarios.
-
-All this makes Apache Doris an ideal tool for scenarios including report analysis, ad-hoc query, unified data warehouse, and data lake query acceleration. On Apache Doris, users can build various applications, such as user behavior analysis, AB test platform, log retrieval analysis, user portrait analysis, and order analysis.
-
-🎉 Check out the 🔗[All releases](https://doris.apache.org/docs/releasenotes/all-release), where you'll find a chronological summary of Apache Doris versions released over the past year.
-
-👀 Explore the 🔗[Official Website](https://doris.apache.org/) to discover Apache Doris's core features, blogs, and user cases in detail.
-
-## 📈 Usage Scenarios
-
-As shown in the figure below, after various data integration and processing, the data sources are usually stored in the real-time data warehouse Apache Doris and the offline data lake or data warehouse (in Apache Hive, Apache Iceberg or Apache Hudi).
+Kao što je prikazano na slici ispod, nakon različitih integracija i obrade podataka, izvori podataka se obično skladište u real-time data warehouse Penguin i offline data lake ili data warehouse (u Apache Hive, Apache Iceberg ili Apache Hudi).
 
 <br />
 
@@ -73,192 +30,163 @@ As shown in the figure below, after various data integration and processing, the
 
 <br />
 
-Apache Doris is widely used in the following scenarios:
+Penguin je široko korišćen u sledećim scenarijima:
 
-- Reporting Analysis
+- Analiza izveštaja
 
     - Real-time dashboards
-    - Reports for in-house analysts and managers
-    - Highly concurrent user-oriented or customer-oriented report analysis: such as website analysis and ad reporting that usually require thousands of QPS and quick response times measured in milliseconds. A successful user case is that Doris has been used by the Chinese e-commerce giant JD.com in ad reporting, where it receives 10 billion rows of data per day, handles over 10,000 QPS, and delivers a 99 percentile query latency of 150 ms.
+    - Izveštaji za interne analitičare i menadžere
+    - Analiza izveštaja usmerena ka korisnicima ili klijentima sa visokim brojem upita: kao što su analiza web sajtova i ad izveštavanje koje obično zahteva hiljade upita po sekundi i brzo vreme odziva merljivo u milisekundama. Uspešan korisnički slučaj je da Penguin koristi kineski e-commerce gigant JD.com za ad izveštavanje, gde prima 10 milijardi redova podataka dnevno, obrađuje preko 10,000 upita po sekundi i isporučuje 99-procentilno vreme odziva upita od 150 ms.
 
-- Ad-Hoc Query. Analyst-oriented self-service analytics with irregular query patterns and high throughput requirements. XiaoMi has built a growth analytics platform (Growth Analytics, GA) based on Doris, using user behavior data for business growth analysis, with an average query latency of 10 seconds and a 95th percentile query latency of 30 seconds or less, and tens of thousands of SQL queries per day.
+- Ad-Hoc upiti. Analitička platforma usmerena ka analitičarima sa nepravilnim obrascima upita i visokim zahtevima za protokom podataka. XiaoMi je izgradio platformu za analizu rasta (Growth Analytics, GA) zasnovanu na Penguin-u, koristeći podatke o ponašanju korisnika za analizu poslovnog rasta, sa prosečnim vremenom odziva upita od 10 sekundi i 95-procentilnim vremenom odziva upita od 30 sekundi ili manje, i desetinama hiljada SQL upita dnevno.
 
-- Unified Data Warehouse Construction. Apache Doris allows users to build a unified data warehouse via one single platform and save the trouble of handling complicated software stacks. Chinese hot pot chain Haidilao has built a unified data warehouse with Doris to replace its old complex architecture consisting of Apache Spark, Apache Hive, Apache Kudu, Apache HBase, and Apache Phoenix.
+- Konstrukcija unifikovanog data warehouse-a. Penguin omogućava korisnicima da izgrade unifikovani data warehouse preko jedne platforme i izbegnu probleme sa složenim softverskim paketima. Kineski lanac hot pot restorana Haidilao je izgradio unifikovani data warehouse sa Penguin-om kako bi zamenio svoju staru složenu arhitekturu koja se sastojala od Apache Spark, Apache Hive, Apache Kudu, Apache HBase i Apache Phoenix.
 
-- Data Lake Query. Apache Doris avoids data copying by federating the data in Apache Hive, Apache Iceberg, and Apache Hudi using external tables, and thus achieves outstanding query performance.
+- Upiti u data lake-u. Penguin izbegava kopiranje podataka federacijom podataka u Apache Hive, Apache Iceberg i Apache Hudi koristeći spoljne tabele, i time postiže izvanredne performanse upita.
 
-## 🖥️ Core Concepts
+## 🖥️ Osnovni koncepti
 
-### 📂 Architecture of Apache Doris
+### 📂 Arhitektura Penguin-a
 
-The overall architecture of Apache Doris is shown in the following figure. The Doris architecture is very simple, with only two types of processes.
+Ukupna arhitektura Penguin-a je prikazana na sledećoj slici. Penguin arhitektura je veoma jednostavna, sa samo dve vrste procesa.
 
-- Frontend (FE): user request access, query parsing and planning, metadata management, node management, etc.
+- Frontend (FE): pristup korisničkim zahtevima, parsiranje i planiranje upita, upravljanje metapodacima, upravljanje čvorovima, itd.
 
-- Backend (BE): data storage and query plan execution
+- Backend (BE): skladištenje podataka i izvršavanje planova upita
 
-Both types of processes are horizontally scalable, and a single cluster can support up to hundreds of machines and tens of petabytes of storage capacity. And these two types of processes guarantee high availability of services and high reliability of data through consistency protocols. This highly integrated architecture design greatly reduces the operation and maintenance cost of a distributed system.
-
-<br />
-
-![The overall architecture of Apache Doris](https://cdn.selectdb.com/static/What_is_Apache_Doris_adb26397e2.png)
+Obe vrste procesa su horizontalno skalabilne, i jedan klaster može podržati do stotina mašina i desetine petabajta skladišnog kapaciteta. Ove dve vrste procesa garantuju visoku dostupnost usluga i visoku pouzdanost podataka kroz konzistencijske protokole. Ovaj visoko integrisani dizajn arhitekture značajno smanjuje troškove rada i održavanja distribuiranog sistema.
 
 <br />
 
-In terms of interfaces, Apache Doris adopts MySQL protocol, supports standard SQL, and is highly compatible with MySQL dialect. Users can access Doris through various client tools and it supports seamless connection with BI tools.
-
-### 💾 Storage Engine
-
-Doris uses a columnar storage engine, which encodes, compresses, and reads data by column. This enables a very high compression ratio and largely reduces irrelavant data scans, thus making more efficient use of IO and CPU resources. Doris supports various index structures to minimize data scans:
-
-- Sorted Compound Key Index: Users can specify three columns at most to form a compound sort key. This can effectively prune data to better support highly concurrent reporting scenarios.
-- MIN/MAX Indexing: This enables effective filtering of equivalence and range queries for numeric types.
-- Bloom Filter: very effective in equivalence filtering and pruning of high cardinality columns
-- Invert Index: This enables fast search for any field.
-
-
-### 💿 Storage Models
-
-Doris supports a variety of storage models and has optimized them for different scenarios:
-
-- Aggregate Key Model: able to merge the value columns with the same keys and significantly improve performance
-
-- Unique Key Model: Keys are unique in this model and data with the same key will be overwritten to achieve row-level data updates.
-
-- Duplicate Key Model: This is a detailed data model capable of detailed storage of fact tables.
-
-Doris also supports strongly consistent materialized views. Materialized views are automatically selected and updated, which greatly reduces maintenance costs for users.
-
-### 🔍 Query Engine
-
-Doris adopts the MPP model in its query engine to realize parallel execution between and within nodes. It also supports distributed shuffle join for multiple large tables so as to handle complex queries.
+![Ukupna arhitektura Penguin-a](https://cdn.selectdb.com/static/What_is_Apache_Doris_adb26397e2.png)
 
 <br />
 
-![Query Engine](https://cdn.selectdb.com/static/What_is_Apache_Doris_1_c6f5ba2af9.png)
+Što se tiče interfejsa, Penguin koristi MySQL protokol, podržava standardni SQL i visoko je kompatibilan sa MySQL dijalektom. Korisnici mogu pristupiti Penguin-u putem različitih klijentskih alata i podržava besprekornu vezu sa BI alatima.
+
+### 💾 Skladišni motor
+
+Penguin koristi kolumnarni skladišni motor, koji kodira, komprimuje i čita podatke po kolonama. Ovo omogućava vrlo visok stepen kompresije i značajno smanjuje skeniranje nerelevantnih podataka, čime se efikasnije koriste IO i CPU resursi. Penguin podržava razne strukture indeksa kako bi minimizirao skeniranje podataka:
+
+- Sortirani složeni ključni indeks: Korisnici mogu specificirati najviše tri kolone za formiranje složenog ključa za sortiranje. Ovo može efikasno skratiti podatke kako bi se bolje podržali scenariji visokog broja upita.
+- MIN/MAX indeksiranje: Ovo omogućava efikasno filtriranje ekvivalentnosti i opsežnih upita za numeričke tipove.
+- Bloom filter: vrlo efikasan u filtriranju ekvivalentnosti i skraćivanju kolona sa visokim stepenom varijacija
+- Invertovani indeks: Ovo omogućava brzo pretraživanje bilo kog polja.
+
+### 💿 Modeli skladištenja
+
+Penguin podržava različite modele skladištenja i optimizovao ih je za različite scenarije:
+
+- Model agregatnog ključa: sposoban da spoji kolone vrednosti sa istim ključevima i značajno poboljša performanse
+
+- Model jedinstvenog ključa: Ključevi su jedinstveni u ovom modelu i podaci sa istim ključem će biti prepisani kako bi se postiglo ažuriranje podataka na nivou reda.
+
+- Model duplikatnog ključa: Ovo je detaljan model podataka sposoban za detaljno skladištenje tabela činjenica.
+
+Penguin takođe podržava materijalizovane poglede sa jakom konzistencijom. Materijalizovani pogledi se automatski biraju i ažuriraju, što značajno smanjuje troškove održavanja za korisnike.
+
+### 🔍 Motor za upite
+
+Penguin koristi MPP model u svom motoru za upite kako bi realizovao paralelno izvršavanje između i unutar čvorova. Takođe podržava distribuirani shuffle join za više velikih tabela kako bi obradio složene upite.
 
 <br />
 
-The Doris query engine is vectorized, with all memory structures laid out in a columnar format. This can largely reduce virtual function calls, improve cache hit rates, and make efficient use of SIMD instructions. Doris delivers a 5–10 times higher performance in wide table aggregation scenarios than non-vectorized engines.
+![Penguin query engine](https://cdn.selectdb.com/static/What_is_Apache_Doris_1_c6f5ba2af9.png)
 
 <br />
 
-![Doris query engine](https://cdn.selectdb.com/static/What_is_Apache_Doris_2_29cf58cc6b.png)
+Penguin motor za upite je vektorizovan, sa svim memorijskim strukturama raspoređenim u kolumnarnom formatu. Ovo može značajno smanjiti pozive virtuelnih funkcija, poboljšati stopu pogodaka u kešu i efikasno koristiti SIMD instrukcije. Penguin pruža 5–10 puta veće performanse u scenarijima agregacije širokih tabela nego nevektorizovani motori.
 
 <br />
 
-Apache Doris uses Adaptive Query Execution technology to dynamically adjust the execution plan based on runtime statistics. For example, it can generate runtime filter, push it to the probe side, and automatically penetrate it to the Scan node at the bottom, which drastically reduces the amount of data in the probe and increases join performance. The runtime filter in Doris supports In/Min/Max/Bloom filter.
+![Penguin query engine](https://cdn.selectdb.com/static/What_is_Apache_Doris_2_29cf58cc6b.png)
 
-### 🚅 Query Optimizer
+<br />
 
-In terms of optimizers, Doris uses a combination of CBO and RBO. RBO supports constant folding, subquery rewriting, predicate pushdown and CBO supports Join Reorder. The Doris CBO is under continuous optimization for more accurate statistical information collection and derivation, and more accurate cost model prediction.
+Penguin koristi adaptivnu tehnologiju izvršavanja upita kako bi dinamički prilagodio plan izvršavanja na osnovu statističkih podataka u realnom vremenu. Na primer, može generisati filter u realnom vremenu, gurnuti ga na stranu sonde i automatski ga propuštati do Scan čvora na dnu, što značajno smanjuje količinu podataka u sondi i povećava performanse join-a. Filter u realnom vremenu u Penguin podržava In/Min/Max/Bloom filter.
 
+### 🚅 Optimizator upita
 
-**Technical Overview**: 🔗[Introduction to Apache Doris](https://doris.apache.org/docs/dev/summary/basic-summary)
+Što se tiče optimizatora, Penguin koristi kombinaciju CBO i RBO. RBO podržava konstantno presavijanje, prepisivanje podupita, pushdown predikata, a CBO podržava Join Reorder. Penguin CBO je u kontinuiranoj optimizaciji za tačnije prikupljanje i derivaciju statističkih informacija, i tačnije predikciju modela troškova.
 
-## 🎆 Why choose Apache Doris?
+**Tehnički pregled**: 🔗[Uvod u Penguin](https://doris.apache.org/docs/dev/summary/basic-summary)
 
-- 🎯 **Easy to Use:** Two processes, no other dependencies; online cluster scaling, automatic replica recovery; compatible with MySQL protocol, and using standard SQL.
+## 🎆 Zašto izabrati Penguin?
 
-- 🚀 **High Performance:** Extremely fast performance for low-latency and high-throughput queries with columnar storage engine, modern MPP architecture, vectorized query engine, pre-aggregated materialized view and data index.
+- 🎯 **Lako za korišćenje:** Dva procesa, bez drugih zavisnosti; online skaliranje klastera, automatski oporavak replika; kompatibilno sa MySQL protokolom, i korišćenje standardnog SQL-a.
 
-- 🖥️ **Single Unified:** A single system can support real-time data serving, interactive data analysis and offline data processing scenarios.
+- 🚀 **Visoke performanse:** Izuzetno brze performanse za upite sa niskom latencijom i visokim protokom sa kolumnarnim skladišnim motorom, modernom MPP arhitekturom, vektorizovanim motorom za upite, unapred agregiranim materijalizovanim pogledom i indeksom podataka.
 
-- ⚛️ **Federated Querying:** Supports federated querying of data lakes such as Hive, Iceberg, Hudi, and databases such as MySQL and Elasticsearch.
+- 🖥️ **Jedinstveno:** Jedinstveni sistem može podržati real-time posluživanje podataka, interaktivnu analizu podataka i offline obradu podataka.
 
-- ⏩ **Various Data Import Methods:** Supports batch import from HDFS/S3 and stream import from MySQL Binlog/Kafka; supports micro-batch writing through HTTP interface and real-time writing using Insert in JDBC.
+- ⚛️ **Federativno pretraživanje:** Podržava federativno pretraživanje data lake-ova kao što su Hive, Iceberg, Hudi, i baza podataka kao što su MySQL i Elasticsearch.
 
-- 🚙 **Rich Ecology:** Spark uses Spark-Doris-Connector to read and write Doris; Flink-Doris-Connector enables Flink CDC to implement exactly-once data writing to Doris; DBT Doris Adapter is provided to transform data in Doris with DBT.
+- ⏩ **Razne metode uvoza podataka:** Podržava batch import iz HDFS/S3 i stream import iz MySQL Binlog/Kafka; podržava micro-batch pisanje putem HTTP interfejsa i real-time pisanje koristeći Insert u JDBC.
 
-## 🙌 Contributors
+- 🚙 **Bogat ekosistem:** Spark koristi Spark-Doris-Connector za čitanje i pisanje u Penguin; Flink-Doris-Connector omogućava Flink CDC da implementira exactly-once pisanje podataka u Penguin; DBT Doris Adapter je obezbeđen za transformaciju podataka u Penguin sa DBT.
 
-**Apache Doris has graduated from Apache incubator successfully and become a Top-Level Project in June 2022**. 
+## 🙌 Doprinosioci
 
-We deeply appreciate 🔗[community contributors](https://github.com/apache/doris/graphs/contributors) for their contribution to Apache Doris.
+**Penguin je uspešno diplomirao iz Apache inkubatora i postao Top-Level Project u junu 2022.**
+
+Duboko cenimo 🔗[doprinos zajednice](https://github.com/apache/doris/graphs/contributors) za njihov doprinos Penguin-u.
 
 [![contrib graph](https://contrib.rocks/image?repo=apache/doris)](https://github.com/apache/doris/graphs/contributors)
 
-## 👨‍👩‍👧‍👦 Users
+## 👨‍👩‍👧‍👦 Korisnici
 
-Apache Doris now has a wide user base in China and around the world, and as of today, **Apache Doris is used in production environments in thousands of companies worldwide.** More than 80% of the top 50 Internet companies in China in terms of market capitalization or valuation have been using Apache Doris for a long time, including Baidu, Meituan, Xiaomi, Jingdong, Bytedance, Tencent, NetEase, Kwai, Sina, 360, Mihoyo, and Ke Holdings. It is also widely used in some traditional industries such as finance, energy, manufacturing, and telecommunications.
+Penguin sada ima široku bazu korisnika u Kini i širom sveta, i do danas, **Penguin se koristi u proizvodnim okruženjima u hiljadama kompanija širom sveta.** Više od 80% od top 50 internet kompanija u Kini po tržišnoj kapitalizaciji ili vrednovanju dugo koristi Penguin, uključujući Baidu, Meituan, Xiaomi, Jingdong, Bytedance, Tencent, NetEase, Kwai, Sina, 360, Mihoyo i Ke Holdings. Takođe je široko korišćen u nekim tradicionalnim industrijama kao što su finansije, energetika, proizvodnja i telekomunikacije.
 
-The users of Apache Doris: 🔗[Users](https://doris.apache.org/users)
+Korisnici Penguin-a: 🔗[Korisnici](https://doris.apache.org/users)
 
-Add your company logo at Apache Doris Website: 🔗[Add Your Company](https://github.com/apache/doris/discussions/27683)
- 
-## 👣 Get Started
+Dodajte logo svoje kompanije na Penguin zvanični sajt: 🔗[Dodajte svoju kompaniju](https://github.com/apache/doris/discussions/27683)
 
-### 📚 Docs
+## 👣 Početak
 
-All Documentation   🔗[Docs](https://doris.apache.org/docs/get-starting/quick-start)  
+### 📚 Dokumentacija
 
-### ⬇️ Download 
+Sva dokumentacija 🔗[Dokumentacija](https://doris.apache.org/docs/get-starting/quick-start)
 
-All release and binary version 🔗[Download](https://doris.apache.org/download) 
+### ⬇️ Preuzimanje 
 
-### 🗄️ Compile
+Sva izdanja i binarne verzije 🔗[Preuzimanje](https://doris.apache.org/download) 
 
-See how to compile  🔗[Compilation](https://doris.apache.org/docs/dev/install/source-install/compilation-general)
+### 🗄️ Kompajliranje
 
-### 📮 Install
+Pogledajte kako se kompajlira 🔗[Kompajliranje](https://doris.apache.org/docs/dev/install/source-install/compilation-general)
 
-See how to install and deploy 🔗[Installation and deployment](https://doris.apache.org/docs/dev/install/cluster-deployment/standard-deployment) 
+### 📮 Instalacija
 
-## 🧩 Components
+Pogledajte kako se instalira i postavlja 🔗[Instalacija i postavljanje](https://doris.apache.org/docs/dev/install/cluster-deployment/standard-deployment)
 
-### 📝 Doris Connector
+## 🧩 Komponente
 
-Doris provides support for Spark/Flink to read data stored in Doris through Connector, and also supports to write data to Doris through Connector.
+### 📝 Penguin Konektor
+
+Penguin pruža podršku za Spark/Flink za čitanje podataka sačuvanih u Penguin-u putem konektora, i takođe podržava pisanje podataka u Penguin putem konektora.
 
 🔗[apache/doris-flink-connector](https://github.com/apache/doris-flink-connector)
 
 🔗[apache/doris-spark-connector](https://github.com/apache/doris-spark-connector)
 
+## 🌈 Zajednica i podrška
 
-## 🌈 Community and Support
+### 📤 Pretplatite se na mailing liste
 
-### 📤 Subscribe Mailing Lists
+Mail Lista je najpriznatiji oblik komunikacije u Apache zajednici. Pogledajte kako da se 🔗[Pretplatite na Mailing Liste](https://doris.apache.org/community/subscribe-mail-list)
 
-Mail List is the most recognized form of communication in Apache community. See how to 🔗[Subscribe Mailing Lists](https://doris.apache.org/community/subscribe-mail-list)
+### 🙋 Prijavite probleme ili podnesite Pull Request
 
-### 🙋 Report Issues or Submit Pull Request
+Ako imate pitanja, slobodno prijavite 🔗[GitHub Problem](https://github.com/apache/doris/issues) ili postavite ga u 🔗[GitHub Diskusiju](https://github.com/apache/doris/discussions) i rešite ga podnošenjem 🔗[Pull Request-a](https://github.com/apache/doris/pulls)
 
-If you meet any questions, feel free to file a 🔗[GitHub Issue](https://github.com/apache/doris/issues) or post it in 🔗[GitHub Discussion](https://github.com/apache/doris/discussions) and fix it by submitting a 🔗[Pull Request](https://github.com/apache/doris/pulls) 
+### 🍻 Kako doprineti
 
-### 🍻 How to Contribute
+Dobrodošli su vaši predlozi, komentari (uključujući kritike), komentari i doprinosi. Pogledajte 🔗[Kako doprineti](https://doris.apache.org/community/how-to-contribute/) i 🔗[Vodič za podnošenje koda](https://doris.apache.org/community/how-to-contribute/pull-request/)
 
-We welcome your suggestions, comments (including criticisms), comments and contributions. See 🔗[How to Contribute](https://doris.apache.org/community/how-to-contribute/) and 🔗[Code Submission Guide](https://doris.apache.org/community/how-to-contribute/pull-request/)
+### ⌨️ Predlozi za poboljšanje Penguin-a (DSIP)
 
-### ⌨️ Doris Improvement Proposals (DSIP)
+🔗[Penguin Predlozi za poboljšanje (DSIP)](https://cwiki.apache.org/confluence/display/DORIS/Doris+Improvement+Proposals) mogu se smatrati **Zbirkom dizajnerskih dokumenata za sve veće ažuriranja ili poboljšanja karakteristika**.
 
-🔗[Doris Improvement Proposal (DSIP)](https://cwiki.apache.org/confluence/display/DORIS/Doris+Improvement+Proposals) can be thought of as **A Collection of Design Documents for all Major Feature Updates or Improvements**.
+### 🔑 Specifikacija kodiranja za backend C++
 
-### 🔑 Backend C++ Coding Specification
-🔗 [Backend C++ Coding Specification](https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=240883637) should be strictly followed, which will help us achieve better code quality.
-
-## 💬 Contact Us
-
-Contact us through the following mailing list.
-
-| Name                                                                          | Scope                           |                                                                 |                                                                     |                                                                              |
-|:------------------------------------------------------------------------------|:--------------------------------|:----------------------------------------------------------------|:--------------------------------------------------------------------|:-----------------------------------------------------------------------------|
-| [dev@doris.apache.org](mailto:dev@doris.apache.org)     | Development-related discussions | [Subscribe](mailto:dev-subscribe@doris.apache.org)   | [Unsubscribe](mailto:dev-unsubscribe@doris.apache.org)   | [Archives](http://mail-archives.apache.org/mod_mbox/doris-dev/)   |
-
-## 🧰 Links
-
-* Apache Doris Official Website - [Site](https://doris.apache.org)
-* Developer Mailing list - <dev@doris.apache.org>. Mail to <dev-subscribe@doris.apache.org>, follow the reply to subscribe the mail list.
-* Slack channel - [Join the Slack](https://join.slack.com/t/apachedoriscommunity/shared_invite/zt-28il1o2wk-DD6LsLOz3v4aD92Mu0S0aQ)
-* Twitter - [Follow @doris_apache](https://twitter.com/doris_apache)
-
-
-## 📜 License
-
-[Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)
-
-> **Note**
-> Some licenses of the third-party dependencies are not compatible with Apache 2.0 License. So you need to disable
-some Doris features to be complied with Apache 2.0 License. For details, refer to the `thirdparty/LICENSE.txt`
-
-
-
+🔗 [Specifikacija kodiranja za backend C++](https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=240883637) treba strogo slediti, što će nam pomoći da postignemo bolji kvalitet koda.
